@@ -1,12 +1,7 @@
 
 <?php get_header();?>
 
-<!-- subheader begin -->
-<div id="subheader">
-    <h1>Explore</h1>
-    <h3>Five Stars Hotel</h3>
-</div>
-<!-- subheader close -->
+<?php get_template_part('tpl','subheader');?>
 
 <!-- content begin -->
 <div id="content" class="no-top no-bottom">
