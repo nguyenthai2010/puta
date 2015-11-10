@@ -1,0 +1,29 @@
+
+/*===================FONTS=====================*/
+@mixin Roboto-Regular ( $value, $line:1.1 ) {
+  font-family: 'Roboto', sans-serif;
+  font-size: $value;
+  line-height: $line;
+  font-weight: 400;
+}
+@mixin Oswald-Regular ( $value, $line:1.1 ) {
+  font-family: 'Oswald', sans-serif;
+  font-size: $value;
+  line-height: $line;
+  font-weight: 400;
+}
+@mixin Oswald-Light ( $value, $line:1.1 ) {
+  font-family: 'Oswald', sans-serif;
+  font-size: $value;
+  line-height: $line;
+  font-weight: 300;
+}
+@mixin Oswald-Bold ( $value, $line:1.1 ) {
+  font-family: 'Oswald', sans-serif;
+  font-size: $value;
+  line-height: $line;
+  font-weight: 700;
+}
+
+/*===================COLOR=====================*/
+

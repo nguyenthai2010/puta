@@ -1,0 +1,47 @@
+/*- - - - - - - - - - - - - - - - - - - -
+	NAVIGATION
+- - - - - - - - - - - - - - - - - - - - */
+#mainmenu-container {
+  @include Oswald-Light(18px);
+
+  #mainmenu {
+    a {
+      color:#176599;
+      padding: 20px 0 20px 0 ;
+
+      &:hover {
+        color:#176599;
+      }
+
+
+
+    }
+
+    & > li {
+      padding: 0 40px;
+
+      &:after {
+        font-family:"FontAwesome";
+        content:"\f111";
+        font-size:8px;
+        color:#edb83a;
+        position: absolute;
+        top: 23px;
+        right: 0;
+      }
+
+      a:after {
+        content: '';
+        margin-left: 0px;
+      }
+
+      &:last-child {
+        &:after {
+          content:"";
+        }
+      }
+    }
+  }
+
+}
+
