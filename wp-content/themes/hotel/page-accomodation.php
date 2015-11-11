@@ -1,15 +1,10 @@
 
 <?php get_header();?>
 
-<!-- subheader begin -->
-<div id="subheader">
-    <h1>ACCOMODATION</h1>
-    <h3>FULL VILLA</h3>
-</div>
-<!-- subheader close -->
+<?php get_template_part('tpl','subheader');?>
 
 <!-- content begin -->
-<div id="content" class="no-top no-bottom">
+<div id="content" class=" no-bottom">
     <div class="container">
         <div class="row">
             <div class="room-single">
@@ -34,26 +29,35 @@
 
                         <div class="text">
                             <h4>Overview</h4>
-                            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                            <p>Finished in 2009, are our 5 new villas. Each villa has 3 bedrooms. 1 Master bedroom on the ground floor and 2 superior (1 double, 1 twin) bedrooms on the 1st floor. All rooms have separate access and can be rented as a whole or on a room by room basis. There is Ocean View from all of the rooms.</p>
                             <div class="room-specs">
                                 <h4>Features</h4>
                                 <ul>
-                                    <li>Double Size Bed</li>
-                                    <li>Hotspot Area</li>
-                                    <li>Beach View</li>
-                                    <li>Room Services</li>
-                                    <li>Free Dinner</li>
-                                    <li>Free Parking</li>
+                                    <li>3 Bedrooms (2 double, 1 twin room)Flat screen TV and DVD player/stereo</li>
+                                    <li>Comfortable furniture</li>
+                                    <li>Fully equipped kitchen (in masterbedroom)</li>
+                                    <li>AC in the bedrooms</li>
+                                    <li>Fan in living room and bedroom</li>
+                                    <li>Safe</li>
+                                    <li>Four poster King size beds with mosquito nets</li>
+                                    <li>Minibar</li>
+                                    <li>Hair Dryer</li>
+                                    <li>Sea view</li>
+                                    <li>and much more</li>
+                                    <li>Extra bed: +150.000 IDR</li>
+                                </ul>
+                            </div>
+                            <div class="room-specs room-rates">
+                                <h4>RATE</h4>
+                                <ul>
+                                    <li>Low Season: <b>2.250.000 IDR</b></li>
+                                    <li>Normal Season: <b>2.400.000 IDR</b></li>
+                                    <li>High Season: <b>2.700.000 IDR</b></li>
                                 </ul>
                             </div>
                         </div>
 
-
-                        <div class="price">
-                            $300<span>/night</span>
-                        </div>
-
-                        <a href="#" class="btn-border">Book Now</a>
+                        <a href="#" class="btn orrange ">CONTACT US FOR AVAILABLILITY</a>
                     </div>
                 </div>
 

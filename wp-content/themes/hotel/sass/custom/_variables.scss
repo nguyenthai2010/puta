@@ -26,4 +26,17 @@
 }
 
 /*===================COLOR=====================*/
+$white: #fff;
+$c333: #333;
 
+.btn{
+  background: #edb83a;
+  @include Oswald-Regular(18px, 1);
+  padding: 13px 25px 12px;
+  color: $white;
+  border-radius: 0;
+  margin-top:10px;
+  &.orrange{
+    background: #edb83a;
+  }
+}
