@@ -3,6 +3,7 @@
 - - - - - - - - - - - - - - - - - - - - */
 #mainmenu-container {
   @include Oswald-Light(18px);
+  height:56px;
 
   #mainmenu {
     a {
@@ -30,17 +31,64 @@
         right: 0;
       }
 
-      a:after {
-        content: '';
-        margin-left: 0px;
-      }
-
       &:last-child {
         &:after {
           content:"";
         }
       }
+
+      & > a {
+        position: relative;
+
+        &:after {
+          content: ' ';
+          margin-left: 0px;
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          height: 3px;
+          background-color: #edb83a;
+          margin-left: 0;
+          float: none;
+          display: none;
+          left: 0;
+
+        }
+
+      }
+
+      &:hover {
+        & > a {
+          &:after {
+            display: block;
+          }
+        }
+
+
+      }
+
+      ul {
+        padding-top: 10px;
+
+        li {
+          border-bottom: solid 1px #e5e5e5;
+
+          a {
+            padding: 20px ;
+            background: #fff;
+            color: #999999;
+
+            &:hover {
+              background: #edb83a;
+              color: #fff;
+            }
+          }
+        }
+
+
+      }
     }
+
   }
 
 }

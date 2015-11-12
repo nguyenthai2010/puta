@@ -30,32 +30,23 @@
     <!-- mainmenu begin -->
     <div id="mainmenu-container">
         <ul id="mainmenu">
-            <li><a href="index.html">Home</a>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">ACCOMODATION</a>
                 <ul>
-                    <li><a href="index.html">Homepage 1</a>
-                    <li><a href="index-2.html">Homepage 2</a>
+                    <li><a href="#">DELUXE ROOM</a>
+                    <li><a href="#">BUNGALOW</a>
+                    <li><a href="#">VILLA SUPERIOR</a>
+                    <li><a href="#">VILLA MASTER</a>
                 </ul>
+
+
             </li>
-            <li><a href="explore.html">Explore</a></li>
-            <li><a href="room-list.html">Room</a>
-                <ul>
-                    <li><a href="room-1-column.html">1 Column</a>
-                    <li><a href="room-1-column-sidebar.html">1 Column + Sidebar</a>
-                    <li><a href="room-2-columns.html">2 Column</a>
-                    <li><a href="room-2-columns-sidebar.html">2 Columns + Sidebar</a>
-                    <li><a href="room-3-columns.html">3 Columns</a>
-                    <li><a href="single-room.html">Single Room</a>
-                </ul>
-            </li>
-            <li><a href="booking.html">Booking</a></li>
-            <li><a href="news.html">News</a>
-                <ul>
-                    <li><a href="news.html">News List</a></li>
-                    <li><a href="single-news.html">Single News</a></li>
-                </ul>
-            </li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">DIVING</a></li>
+            <li><a href="#">SPA</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">CONTACT/BOOKINGS</a></li>
+
         </ul>
     </div>
     <!-- mainmenu close -->
