@@ -20,7 +20,7 @@
     <!-- logo begin -->
     <div id="logo">
         <div class="inner">
-            <a href="index.html">
+            <a href="#">
                 <img src="img/logo.png" alt=""></a>
         </div>
     </div>
