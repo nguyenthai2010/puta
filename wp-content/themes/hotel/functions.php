@@ -1,0 +1,60 @@
+<?php
+    /*update_option('siteurl','http://georgia-bc.be');
+    update_option('home','http://georgia-bc.be');*/
+
+
+    /*function ses_init() {
+      if (!session_id())
+	      session_start();
+	}
+	add_action('init','ses_init');*/
+    //add theme support
+    add_theme_support('post-thumbnails',array('post','page','slider'));
+
+	//style login page
+	function custom_login_css() {
+	echo '<link rel="stylesheet" type="text/css" href="'.get_stylesheet_directory_uri().'/admin/login-style.css" />';
+	}
+	add_action('login_head', 'custom_login_css');
+
+	//contact form
+	/*include TEMPLATEPATH . '/email/smtp.php';
+	include TEMPLATEPATH . '/email/xtemplate.contact.php';
+	include TEMPLATEPATH . '/email/xtemplate.forgotpassword.php';*/
+
+	//register menu
+	function register_menu() {
+	  register_nav_menu('menu_top',__( 'menu_top' ));
+	  
+		register_nav_menus( array(
+			'menu_top' => 'Header - Menu'
+		) );
+	}
+	add_action( 'init', 'register_menu' );
+
+	function get_page_id_by_slug($slug){
+	    global $wpdb;
+	    $id = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name = '".$slug."'AND post_type = 'page'");
+	    return $id;
+	}
+	
+	function get_post_id_by_slug($slug){
+	    global $wpdb;
+	    $id = $wpdb->get_var("SELECT ID FROM $wpdb->posts WHERE post_name = '".$slug."'AND post_type = 'post'");
+	    return $id;
+	}
+	
+	function get_post_id( $slug, $post_type ) {
+		if(!empty($slug)){
+		    $query = new WP_Query(
+		        array(
+		            'name' => $slug,
+		            'post_type' => $post_type
+		        )
+		    );
+		
+		    $query->the_post();
+		
+		    return get_the_ID();
+		}
+	}

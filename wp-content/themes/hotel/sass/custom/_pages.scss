@@ -46,6 +46,8 @@ Gallery
         color:$c333;
         &:before{
           margin-right: 7px;
+          position: relative;
+          top: 2px;
         }
       }
     }
