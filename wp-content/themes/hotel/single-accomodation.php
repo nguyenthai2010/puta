@@ -13,7 +13,7 @@ while ( have_posts() ) : the_post();
 <!-- subheader close -->
 
 <!-- content begin -->
-<div id="content" class=" no-bottom">
+<div id="content" class=" no-bottom accomodation-content">
     <div class="container">
         <div class="row">
             <div class="room-single">
@@ -55,7 +55,7 @@ while ( have_posts() ) : the_post();
                             </div>
                         </div>
 
-                        <a href="#" class="btn orrange ">CONTACT US FOR AVAILABLILITY</a>
+                        <a href="<?php echo bloginfo('home')?>/contact" class="btn orrange ">CONTACT US FOR AVAILABLILITY</a>
                     </div>
                 </div>
 

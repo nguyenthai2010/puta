@@ -43,8 +43,31 @@
 
         echo str_replace('sub-menu', 'dl-submenu', wp_nav_menu( $nav ));
 
-
         ?>
+        <!--<ul id="mainmenu">
+            <li class="<?php /*($pageslug=='about') ? 'active':'';*/?>"><a href="<?php /*echo bloginfo('home')*/?>/about">About</a></li>
+            <li><a href="#">ACCOMODATION</a>
+                <ul>
+                    <?php
+/*                    $args_acc = array(
+                        'post_type' 	 => 'accomodation',
+                        'posts_per_page' =>  8,
+                        'order'			 => 'desc'
+                    );
+                    $query_acc = get_posts($args_acc);
+                    foreach ($query_acc as $acc) {
+                    */?>
+                    <li><a href="<?php /*echo get_the_permalink($acc->ID);*/?>"><?php /*echo get_the_title($acc->ID);*/?></a>
+                    <?php /*} */?>
+                </ul>
+            </li>
+            <li><a href="#">DIVING</a></li>
+            <li><a href="#">SPA</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">LOCATION</a></li>
+            <li><a href="#">CONTACT/BOOKINGS</a></li>
+
+        </ul>-->
     </div>
     <!-- mainmenu close -->
 
