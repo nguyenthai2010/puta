@@ -83,6 +83,6 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/custom.js"></script>
-
+<?php wp_footer(); ?>
 </body>
 </html>
