@@ -30,7 +30,7 @@
     <!-- mainmenu begin -->
     <div id="mainmenu-container">
         <ul id="mainmenu">
-            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
             <li><a href="#">ACCOMODATION</a>
                 <ul>
                     <li><a href="#">DELUXE ROOM</a>

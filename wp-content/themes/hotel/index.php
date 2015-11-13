@@ -108,10 +108,6 @@
         </div>
     </section>
 
-    <section class="call-to-action text-center">
-        <a href="#" class="btn-big-border">Make Your Reservation</a>
-    </section>
-
 
 </div>
 <!-- content close -->
