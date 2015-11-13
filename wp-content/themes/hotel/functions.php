@@ -2,12 +2,6 @@
     /*update_option('siteurl','http://georgia-bc.be');
     update_option('home','http://georgia-bc.be');*/
 
-
-    /*function ses_init() {
-      if (!session_id())
-	      session_start();
-	}
-	add_action('init','ses_init');*/
     //add theme support
     add_theme_support('post-thumbnails',array('post','page','slider'));
 
@@ -17,10 +11,6 @@
 	}
 	add_action('login_head', 'custom_login_css');
 
-	//contact form
-	/*include TEMPLATEPATH . '/email/smtp.php';
-	include TEMPLATEPATH . '/email/xtemplate.contact.php';
-	include TEMPLATEPATH . '/email/xtemplate.forgotpassword.php';*/
 
 	//register menu
 	function register_menu() {

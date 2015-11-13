@@ -35,31 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/_style.scss">
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-182.69492" vertical-offset="5039" max-vertical-offset="51502">
-              <caret line="719" column="8" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_style.scss" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/custom/_style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.545045" vertical-offset="0" max-vertical-offset="1056">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.39285713" vertical-offset="0" max-vertical-offset="506">
-              <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.38063064" vertical-offset="190" max-vertical-offset="1276">
+              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -84,9 +64,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/hotel/sass/custom/_footer.scss" />
         <option value="$PROJECT_DIR$/wp-content/themes/hotel/page-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hotel/footer.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/hotel/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hotel/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/hotel/sass/custom/_style.scss" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hotel/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/hotel/header.php" />
       </list>
     </option>
   </component>
@@ -458,10 +439,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/header.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.4864865" vertical-offset="520" max-vertical-offset="1408">
-          <caret line="4" column="50" selection-start-line="4" selection-start-column="50" selection-end-line="4" selection-end-column="50" />
+        <state vertical-scroll-proportion="-0.39285713" vertical-offset="0" max-vertical-offset="506">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44594595" vertical-offset="0" max-vertical-offset="1210">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="40" />
+          <folding>
+            <marker date="1447404392967" expanded="true" signature="-1:-1" placeholder="SELECT ID FR.._wpdb_posts WHERE..." />
+            <marker date="1447404392967" expanded="true" signature="-1:-1" placeholder="SELECT ID FR.._wpdb_posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/custom/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.545045" vertical-offset="0" max-vertical-offset="1056">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/_style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="12.533721" vertical-offset="5039" max-vertical-offset="51502">
+          <caret line="719" column="8" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -474,26 +482,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/main.scss">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.39285713" vertical-offset="0" max-vertical-offset="506">
-          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-182.69492" vertical-offset="5039" max-vertical-offset="51502">
-          <caret line="719" column="8" selection-start-line="719" selection-start-column="0" selection-end-line="719" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/hotel/sass/custom/_style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.545045" vertical-offset="0" max-vertical-offset="1056">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.38063064" vertical-offset="190" max-vertical-offset="1276">
+          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
           <folding />
         </state>
       </provider>

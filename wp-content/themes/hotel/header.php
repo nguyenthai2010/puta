@@ -22,7 +22,7 @@
     <!-- logo begin -->
     <div id="logo">
         <div class="inner">
-            <a href="#">
+            <a href="<?php echo bloginfo('home')?>">
                 <img src="img/logo.png" alt=""></a>
         </div>
     </div>
@@ -31,26 +31,20 @@
 
     <!-- mainmenu begin -->
     <div id="mainmenu-container">
-        <ul id="mainmenu">
-            <li><a href="#">About</a></li>
-            <li><a href="#">ACCOMODATION</a>
-                <ul>
-                    <li><a href="#">DELUXE ROOM</a>
-                    <li><a href="#">BUNGALOW</a>
-                    <li><a href="#">VILLA SUPERIOR</a>
-                    <li><a href="#">VILLA MASTER</a>
-                    <li><a href="#">FULL VILLA</a>
-                </ul>
+        <?php
+        $nav = array(
+            'echo' => false,
+            'theme_location'  => 'menu_top',
+            'container'       => '',
+            'container_class' => '',
+            'container_id'    => '',
+            'menu_id'         => 'mainmenu'
+        );
+
+        echo str_replace('sub-menu', 'dl-submenu', wp_nav_menu( $nav ));
 
 
-            </li>
-            <li><a href="#">DIVING</a></li>
-            <li><a href="#">SPA</a></li>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">LOCATION</a></li>
-            <li><a href="#">CONTACT/BOOKINGS</a></li>
-
-        </ul>
+        ?>
     </div>
     <!-- mainmenu close -->
 
