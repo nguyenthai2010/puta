@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Corsiva - Responsive Hotel Website Template</title>
+    <title>PURIWIRATA <?php wp_title(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="<?=bloginfo('description')?>" />
     <meta name="author" content="">
     <base href="<?php echo bloginfo('template_url')?>/"></base>
     <!-- LOAD CSS FILES -->
@@ -12,6 +12,8 @@
     <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet" type="text/css">
+
+    <?php wp_head(); ?>
 </head>
 
 <body>
@@ -37,6 +39,7 @@
                     <li><a href="#">BUNGALOW</a>
                     <li><a href="#">VILLA SUPERIOR</a>
                     <li><a href="#">VILLA MASTER</a>
+                    <li><a href="#">FULL VILLA</a>
                 </ul>
 
 
