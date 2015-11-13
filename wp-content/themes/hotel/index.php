@@ -131,7 +131,52 @@
 
 
 <!-- content close -->
+<!-- content begin -->
+<div id="content">
+    <div class="container">
 
+        <div class="row" id="home-things">
+            <div class="col-md-3 col-sm-6">
+                <div class="col">
+                    <img src="img/home/1.jpg">
+                    <h4>SPA TREATMENT</h4>
+                    <p>
+                        Enjoy one of our treatments after diving or just to relax when unwunding from an adventurous day.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="col">
+                    <img src="img/home/2.jpg">
+                    <h4>RAFTING</h4>
+                    <p>
+                        WE offer day trips to numerous adventurous areas, our top pick is the rafting experience you can book with us.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="col">
+                    <img src="img/home/3.jpg">
+                    <h4>DIVING</h4>
+                    <p>
+                        Amed is known for its untouched beautiful dive spots. Beginner or advanced we will show you the right spots
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="col">
+                    <img src="img/home/4.jpg">
+                    <h4>DINING</h4>
+                    <p>
+                        Our restaurant serves western and Indonesian food just the way you like it
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- content close -->
 
 <?php get_footer();?>
 
