@@ -89,6 +89,7 @@ Diving page
   p{
     @include Roboto-Regular(12px, 1.4);
     color:$c333;
+    margin-bottom: 14px;
     &.padtop5{
       padding-top: 5px;
     }
@@ -112,9 +113,13 @@ Diving page
     margin-left:35%;
   }
   h4.hfont18{
-    @include Roboto-Regular(18px, 1.2);
+    @include Oswald-Regular(18px, 1.2);
     color:$c333;
     margin: 0;
+    letter-spacing: 0;
+  }
+  .padtop15{
+    padding-top: 15px;
   }
   #diving-2{
     padding-top: 52px;
@@ -146,8 +151,73 @@ Diving page
     }
   }
   h3.h3font22{
-    @include Oswald-Light(22px,1);
+    @include Oswald-Regular(22px,1);
     color: #56a3c5;
     margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+  }
+}
+/*
+Diving Price box
+--------------------------
+*/
+.pricebox3col{
+  margin-top: 36px;
+  .pricebox{
+    padding-left: 10px;
+    h2.diving-title{
+      color: #fff;
+      padding-top: 43px;
+    }
+    .small-border{
+      background: #fff;
+      margin: 24px 0 26px 0;
+    }
+  }
+  .bgpricecourse{
+    background: #edb83a;
+  } 
+  .pricecourse{
+    color: #fff;
+    padding-bottom: 50px;
+    .col01{
+      width: 29%;
+    }
+    .col02{
+      width: 20%;
+    }
+    .col03{
+      width: 20%;
+    }
+    .col{
+      float: left;
+    }
+    .head-course{
+      .col{
+        @include Roboto-Regular(14px, 1);
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+    }
+    .body-course{
+      .row-course{
+        float: left;
+        width: 100%;
+        padding-top: 8px;
+        .col{
+          @include Roboto-Regular(12px, 1);
+        }
+      }
+    }
+  }
+}
+.content-diving-sub-courses{
+  #diving-2{
+    .image-container{
+      .background-image{
+        max-height: 690px;
+      }
+    }
   }
 }
