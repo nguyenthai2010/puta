@@ -389,3 +389,54 @@ FAQ page
     }
   }
 }
+/*
+CONTACT page
+--------------------------
+*/
+
+.contact-content{
+  .cleft-column{
+    .widget-text{
+      background: #f3f3f3;
+      padding: 40px;
+    }
+    h3.h3font22{
+      @include Oswald-Regular(22px,1.3);
+      color: #449bc0;
+      letter-spacing: 0;
+      padding-bottom: 15px;
+      margin-bottom: 0;
+    }
+    p, .address-box{
+      @include Roboto-Regular(12px, 1.3);
+      color: $c333;
+    }
+    h4.h4font18{
+      @include Oswald-Regular(18px,1.3);
+      padding-top:22px;
+      margin:0;
+      text-transform: uppercase;
+      padding-bottom: 3px;
+    }
+    .ourphone{
+      @include Roboto-Regular(12px, 1.3);
+      color: $c333;
+      background: url(../img/phone-icon.png) no-repeat left center;
+      padding-left: 41px;
+      padding-top: 2px;
+      margin-top: 22px;
+      margin-bottom: 3px;
+    }
+    p.phone{
+      margin-bottom: 0;
+      a{
+        color: #016a98;
+        @include Roboto-Regular(12px, 1.3);
+        text-decoration: underline;
+      }
+    }
+    .social-icons{
+      padding-top: 27px;
+    }
+  }
+}

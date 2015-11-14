@@ -9,32 +9,43 @@
 <!-- subheader close -->
 
 <!-- content begin -->
-<div id="content" class="faq-content">
+<div id="content" class="contact-content">
     <div class="container">
         <div class="row">
-            <div id="sidebar" class="col-md-4">
+            <div id="sidebar" class="col-md-4 cleft-column">
                 <!-- widget -->
                 <div class="widget widget-text">
-                    <h3>Our Address</h3>
-                    <div class="map-small">
-                        <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.id/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=16+Riverside+Rd,+Singapore&amp;sll=-2.547988,118.037109&amp;sspn=29.394918,50.756836&amp;ie=UTF8&amp;geocode=Fb8IFgAdu40vBg&amp;split=0&amp;hq=&amp;hnear=16+Riverside+Rd,+Singapore&amp;ll=1.444031,103.779771&amp;spn=0.014522,0.024784&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=false"></iframe>
+                    <h3 class="h3font22">ADRESS</h3>
+                    <div class="address-box">
+                        Puri Wirata Jl. Raya Bunutan, Amed, 80852<br/>
+                        Karangasem, Bali, Indonesia
                     </div>
-
-                    <address>
-                        <h4>Corsiva South Beach</h4>
-                        <span>20 Main Street, Melbourne</span>
-                        <span><strong>Phone:</strong>(200) 333 8890</span>
-                        <span><strong>Fax:</strong>(200) 333 8892</span>
-                        <span><strong>Email:</strong><a href="mailto:contact@example.com">contact@example.com</a></span>
-                        <span><strong>Web:</strong><a href="#test">http://example.com</a></span>
-                    </address>
-
-
+                    <h4 class="h4font18">Hotel and General inquiries</h4>
+                    <p class="phone">+62 (0)81 338 405 335</p>
+                    <h4 class="h4font18">Diving</h4>
+                    <p class="phone">+62 (0)81 999 386 426</p>
+                    <div class="ourphone">
+                        all our telephone numbers are availbale on<br/>
+                        Whatsapp
+                    </div>
+                    <h4 class="h4font18">Info and Reservations</h4>
+                    <p class="phone"><a href="mailto: info@puriwirata.com">info@puriwirata.com</a></p>
+                    <h4 class="h4font18">Diving</h4>
+                    <p class="phone"><a href="mailto:info@balireefdivers.com">info@balireefdivers.com</a></p>
+                    <div class="social-icons">
+                        <a href="#">
+                            <img src="img/social-icons/sharing-ico1.png" alt=""></a>
+                        <a href="#">
+                            <img src="img/social-icons/sharing-ico2.png" alt=""></a>
+                        <a href="#">
+                            <img src="img/social-icons/sharing-ico3.png" alt=""></a>
+                    </div>
                 </div>
                 <!-- widget close -->
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 cright-column">
                 <div class="contact_form_holder">
+                    <h3 class="h3font22">SEND US A MESSAGE</h3>
                     <form name="contactForm" id="booking_form" method="post" action="reservation.php">
 
                         <div class="col-md-4">
