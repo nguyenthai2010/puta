@@ -16,7 +16,7 @@
                     </div>
 
                 </div>
-                <img src="img/slider-home/pic%20(1).jpg" alt="">
+                <img src="img/slider-home/1.jpg" alt="">
             </li>
 
             <li>
@@ -30,7 +30,7 @@
                     </div>
 
                 </div>
-                <img src="img/slider-home/pic%20(2).jpg" alt="">
+                <img src="img/slider-home/2.jpg" alt="">
             </li>
             <li>
                 <div class="text-wrap">
@@ -43,7 +43,7 @@
                     </div>
 
                 </div>
-                <img src="img/slider-home/pic%20(2).jpg" alt="">
+                <img src="img/slider-home/3.jpg" alt="">
             </li>
 
 
@@ -63,13 +63,13 @@
     <div class="fx custom-carousel-1">
         <div class="room-item item">
             <div class="overlay">
-                <a href="single-room.html">
-                    <h1>Deluxe Room</h1>
+                <a href="<?php echo bloginfo('home')?>/accomodation/villa-superior/">
+                    <h1>VILLA SUPERIOR</h1>
                 </a>
                 <div class="desc">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                     <div class="price">$199<span>/night</span></div>
-                    <a href="single-room.html" class="btn-border">View Details</a>
+                    <a href="<?php echo bloginfo('home')?>/accomodation/villa-superior/" class="btn-border">View Details</a>
                 </div>
             </div>
             <img src="img/room/pic%20(1).jpg" alt="">
@@ -77,13 +77,13 @@
 
         <div class="room-item item">
             <div class="overlay">
-                <a href="single-room.html">
-                    <h1>Luxury Room</h1>
+                <a href="<?php echo bloginfo('home')?>/accomodation/villa-master/">
+                    <h1>MASTER VILLA</h1>
                 </a>
                 <div class="desc">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                     <div class="price">$299<span>/night</span></div>
-                    <a href="single-room.html" class="btn-border">View Details</a>
+                    <a href="<?php echo bloginfo('home')?>/accomodation/villa-master/" class="btn-border">View Details</a>
                 </div>
 
             </div>
@@ -92,13 +92,13 @@
 
         <div class="room-item item">
             <div class="overlay">
-                <a href="single-room.html">
-                    <h1>Premier Room</h1>
+                <a href="<?php echo bloginfo('home')?>/accomodation/full-villa/">
+                    <h1>FULL VILLA</h1>
                 </a>
                 <div class="desc">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
                     <div class="price">$399<span>/night</span></div>
-                    <a href="single-room.html" class="btn-border">View Details</a>
+                    <a href="<?php echo bloginfo('home')?>/accomodation/full-villa/" class="btn-border">View Details</a>
                 </div>
             </div>
             <img src="img/room/pic%20(3).jpg" alt="">
