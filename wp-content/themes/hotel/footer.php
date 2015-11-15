@@ -22,10 +22,11 @@
                 <h3>ACCOMODATION</h3>
 
                 <ul >
-                    <li><a href="#">Deluxe</a></li>
-                    <li><a href="#">Villa Superior</a></li>
-                    <li><a href="#">VIlla Master</a></li>
-                    <li><a href="#">FUll Villa</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/accomodation/deluxe-room/">Deluxe</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/accomodation/bungalow/">Bungalow</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/accomodation/villa-superior/">Villa Superior</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/accomodation/villa-master/">VIlla Master</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/accomodation/full-villa/">FUll Villa</a></li>
 
                 </ul>
                 <div class="clearfix"></div>
@@ -34,10 +35,10 @@
                 <h3>DIVING</h3>
 
                 <ul >
-                    <li><a href="#">Dive Sites</a></li>
-                    <li><a href="#">Fundives</a></li>
-                    <li><a href="#">Courses</a></li>
-                    <li><a href="#">PAckages</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/diving/dive-sites/">Dive Sites</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/diving/fundives/">Fundives</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/diving/courses/">Courses</a></li>
+                    <li><a href="<?php echo bloginfo('home');?>/diving/packages/">PAckages</a></li>
 
                 </ul>
                 <div class="clearfix"></div>
