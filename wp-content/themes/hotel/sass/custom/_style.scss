@@ -40,6 +40,11 @@ h2 {
     letter-spacing: 25px;
     margin-bottom: 0;
   }
+  
+  &.location {
+    background: url("../img/bg/bg-location.jpg") top center no-repeat;
+    background-size: cover;
+  }
 }
 
 .small-border {
