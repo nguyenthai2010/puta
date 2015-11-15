@@ -45,56 +45,39 @@
             </div>
             <div class="col-md-8 cright-column">
                 <div class="contact_form_holder">
-                    <h3 class="h3font22">SEND US A MESSAGE</h3>
-                    <form name="contactForm" id="booking_form" method="post" action="reservation.php">
-
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
+                    <div class="col-md-12">
+                        <h3 class="h3font22">SEND US A MESSAGE</h3>
+                    </div>
+                    <form name="contactForm" id="booking_form" method="post" action="">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="name" id="name" placeholder="Name*">
                         </div>
 
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="email" id="email" placeholder="Your Email *">
-                            <div id="error_email" class="error">Please check your email</div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" name="email" id="email" placeholder="Email*">
                         </div>
-
-                        <div class="col-md-4">
-                            <select name="guest" id="guest" class="form-control">
-                                <option>Number of Guests</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                                <option>&gt;5</option>
-                            </select>
-                        </div>
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="checkin" id="checkin" placeholder="Check In Date">
-                            <div id="error_datepicker" class="error">Please check again</div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <input type="text" class="form-control" name="checkout" id="checkout" placeholder="Check Out Date">
-                            <div id="error_person_num" class="error">Please check again</div>
-                        </div>
-
-                        <div class="col-md-4">
-                            <select name="room" id="room" class="form-control">
-                                <option>Select Room</option>
-                                <option>Single Room</option>
-                                <option>Double Room</option>
-                                <option>Triple Room</option>
-                                <option>Elegant Room</option>
-                            </select>
-                        </div>
-
-
 
                         <div class="col-md-12">
-                            <textarea cols="10" rows="8" name="message" id="message" class="form-control" placeholder="Any Messages?"></textarea>
-                            <div id="error_message" class="error">Please check your message</div>
-                            <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
-                            <div id="mail_failed" class="error">Error, email not sent</div>
+                            <input type="text" class="form-control" name="country" id="country" placeholder="Nationality"/>
+                        </div>
+                        <div class="col-md-12 col-choosereserve">
+                            <select name="reserveroom" id="reserveroom">
+                                <option value="0">Do you want to reserve a room?</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-12 col-choosedive">
+                            <select name="reserveroom" id="reserveroom">
+                                <option value="0">Do you want to dive?</option>
+                                <option value="1">Yes</option>
+                                <option value="2">No</option>
+                            </select>
+                        </div>
+
+                        <div class="col-md-12">
+                            <textarea cols="10" rows="8" name="message" id="message" class="form-control" placeholder="Messages"></textarea>
 
                             <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
                             <div id="mail_failed" class="error">Error, email not sent</div>

@@ -29,6 +29,7 @@
 $white: #fff;
 $c333: #333;
 $c666: #666;
+
 .btn{
   background: #edb83a;
   @include Oswald-Regular(18px, 1);
@@ -39,4 +40,21 @@ $c666: #666;
   &.orrange{
     background: #edb83a;
   }
+}
+
+/*===================RADIO=====================*/
+.radio-toolbar input[type="radio"] {
+  display:none;
+}
+
+.radio-toolbar label {
+  display:inline-block;
+  background-color:#ddd;
+  padding:4px 11px;
+  @include Roboto-Regular(12px, 1.3);
+  color: $c333;
+}
+
+.radio-toolbar input[type="radio"]:checked + label {
+  background-color:#bbb;
 }
