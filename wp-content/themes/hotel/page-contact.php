@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <!-- subheader begin -->
-<div id="subheader" style="background:url(<?php echo get_field('sub-contact','option');?>) top center no-repeat">
+<div id="subheader" class="subheadercontact" style="background:url(<?php echo get_field('sub-contact','option');?>) top center no-repeat">
     <h1>CONTACT</h1>
     <h3>GET IN TOUCH</h3>
 </div>
@@ -44,12 +44,14 @@
                 <!-- widget close -->
             </div>
             <div class="col-md-8 cright-column">
-                <div class="contact_form_holder">
+                <div class="contact_form_holder" id="contact">
                     <div class="col-md-12">
                         <h3 class="h3font22">SEND US A MESSAGE</h3>
                     </div>
-                    <form name="contactForm" id="booking_form" method="post" action="">
-                        <div class="col-md-6">
+                    <?php echo do_shortcode( '[contact-form-7 id="88" title="Contact form 1"]' ); ?>
+
+                    <!--<form name="contactForm" id="booking_form" method="post" action="">
+                        <!--<div class="col-md-6">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Name*">
                         </div>
 
@@ -88,7 +90,7 @@
                         </div>
 
 
-                    </form>
+                    </form>-->
                 </div>
 
             </div>
@@ -100,3 +102,47 @@
 <!-- content close -->
 
 <?php get_footer();?>
+
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery.validator.addMethod('selectcheck', function (value) {
+            return (value != '0');
+        }, "");
+
+        jQuery("#contact form.wpcf7-form").validate({
+            rules: {
+                'your-name': {
+                    required: true
+                },
+                'your-email': {
+                    required: true,
+                    email: true
+                },
+                'your-message': {
+                    required: true
+                }
+            },
+
+            errorPlacement: function(error, element){},
+            highlight: function(element) {
+                //console.log(element);
+                if(jQuery(element).is(':checkbox'))
+                {
+                    var name = $(element).attr('name');
+                    jQuery('input[name='+name+']').addClass('error');
+                }
+                else
+                {
+                    jQuery(element).addClass('error');
+                }
+            },
+            unhighlight: function(element, errorClass, validClass) {
+                jQuery(element).removeClass(errorClass).addClass(validClass); // remove error class from elements/add valid class
+
+            },
+            submitHandler: function(form) {
+                form.submit();
+            }
+        });
+    });
+</script>

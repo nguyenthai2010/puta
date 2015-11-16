@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <!-- subheader begin -->
-<div id="subheader" style="background:url(<?php echo get_field('sub-faq','option');?>) top center no-repeat">
+<div id="subheader" class="subheaderfaq" style="background:url(<?php echo get_field('sub-faq','option');?>) top center no-repeat">
     <h1>FAQ</h1>
     <h3>QUESTIONS</h3>
 </div>
