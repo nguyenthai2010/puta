@@ -48,7 +48,7 @@
                     <div class="col-md-12">
                         <h3 class="h3font22">SEND US A MESSAGE</h3>
                     </div>
-                    <?php echo do_shortcode( '[contact-form-7 id="88" title="Contact form 1"]' ); ?>
+                    <?php echo do_shortcode( '[contact-form-7 id="87" title="Contact form 1"]' ); ?>
 
                     <!--<form name="contactForm" id="booking_form" method="post" action="">
                         <!--<div class="col-md-6">
