@@ -3,7 +3,7 @@
     update_option('home','http://georgia-bc.be');*/
 
     //add theme support
-    add_theme_support('post-thumbnails',array('post','page','slider'));
+    add_theme_support('post-thumbnails',array('post','page','slider','about','spa'));
 
 	//style login page
 	function custom_login_css() {
