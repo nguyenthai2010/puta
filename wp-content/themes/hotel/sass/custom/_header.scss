@@ -57,7 +57,7 @@
 
       }
 
-      &:hover {
+      &:hover, &.current-menu-item, &.current-menu-parent {
         & > a {
           &:after {
             display: block;
@@ -70,7 +70,6 @@
       ul {
         padding-top: 10px;
         left: 20px;
-
         li {
           border-bottom: solid 1px #e5e5e5;
 
@@ -92,5 +91,13 @@
 
   }
 
+}
+
+header{
+  #logo{
+    .inner{
+      margin: 17px 0 14px 0;
+    }
+  }
 }
 

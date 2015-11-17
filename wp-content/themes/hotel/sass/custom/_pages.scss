@@ -541,6 +541,28 @@ Responsive
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 992px) {
+  #mainmenu-container #mainmenu>li:after{
+    display: none;
+  }
+  #mainmenu-container #mainmenu>li ul{
+    left: 0;
+  }
+  #mainmenu li ul li {
+    border-bottom: solid 1px rgba(255,255,255,.1);
+    border-left: solid 1px rgba(255,255,255,.1)!important;
+  }
+  #mainmenu-container #mainmenu>li:hover>a:after, #mainmenu-container #mainmenu>li.current-menu-item>a:after, #mainmenu-container #mainmenu>li.current-menu-parent>a:after{
+    display: none;
+  }
+  #mainmenu-container #mainmenu>li:hover>a, #mainmenu-container #mainmenu>li.current-menu-item>a, #mainmenu-container #mainmenu>li.current-menu-parent>a{
+    color: #edb83a;
+  }
+  #mainmenu-container #mainmenu>li ul li a{
+    background: transparent;
+  }
+  #mainmenu-container #mainmenu>li ul li{
+    border-bottom: solid 1px rgba(255,255,255,0.1);
+  }
   .content-diving-sub-packages #diving-1{
     padding-bottom: 10px!important;
   }
@@ -612,6 +634,9 @@ Responsive
 }
 
 @media (max-width: 767px) {
+  .cright-column, #sidebar{
+    margin-left: -15px;
+  }
 
   .accomodation-content{
     .room-single {

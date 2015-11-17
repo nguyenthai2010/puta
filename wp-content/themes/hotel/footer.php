@@ -6,14 +6,13 @@
                 <h3><img src="img/logo-text.png"></h3>
                 <address>
                     <span>
-                        Jl. Raya Bunutan, Amed,<br>
-                        80852 Karangasem, Bali
+                        <?php echo get_field('location_footer','option');?>
                     </span>
                     <span>
-                        +62 (0)81 338 405 335
+                        <?php echo get_field('phone_footer','option');?>
                     </span>
                     <span>
-                        <a href="mailto:info@puriwirata.com">info@puriwirata.com</a>
+                        <a href="mailto:<?php echo get_field('email_footer','option');?>"><?php echo get_field('email_footer','option');?></a>
                     </span>
                 </address>
                 <div class="clearfix"></div>
@@ -21,26 +20,37 @@
             <div class="col-md-2 col-sm-3">
                 <h3>ACCOMODATION</h3>
 
-                <ul >
-                    <li><a href="<?php echo bloginfo('home');?>/accomodation/deluxe-room/">Deluxe</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/accomodation/bungalow/">Bungalow</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/accomodation/villa-superior/">Villa Superior</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/accomodation/villa-master/">VIlla Master</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/accomodation/full-villa/">FUll Villa</a></li>
+                <?php
+                $nav = array(
+                    'theme_location'  => 'menu_acc',
+                    'menu'            => '',
+                    'container'       => '',
+                    'container_class' => '',
+                    'container_id'    => '',
+                    'menu_class'      => '',
+                    'menu_id'         => '',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                );
 
-                </ul>
+                wp_nav_menu( $nav );
+                ?>
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-2 col-sm-3">
                 <h3>DIVING</h3>
-
-                <ul >
-                    <li><a href="<?php echo bloginfo('home');?>/diving/dive-sites/">Dive Sites</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/diving/fundives/">Fundives</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/diving/courses/">Courses</a></li>
-                    <li><a href="<?php echo bloginfo('home');?>/diving/packages/">PAckages</a></li>
-
-                </ul>
+                <?php
+                $nav = array(
+                    'theme_location'  => 'menu_diving',
+                    'menu'            => '',
+                    'container'       => '',
+                    'container_class' => '',
+                    'container_id'    => '',
+                    'menu_class'      => '',
+                    'menu_id'         => '',
+                    'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                );
+                wp_nav_menu( $nav );
+                ?>
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-3 pull-right-md col-sm-12" >

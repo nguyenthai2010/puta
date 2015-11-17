@@ -3,11 +3,13 @@ footer {
   padding: 50px 0 0 0;
   background: #0b3d55;
   color: #fff;
-
+  a{
+    text-transform: capitalize;
+  }
   address {
     span {
       position: relative;
-      padding-left: 30px;
+      padding-left: 33px;
       padding-bottom: 10px;
 
       &:before{

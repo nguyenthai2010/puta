@@ -14,11 +14,16 @@
 
 	//register menu
 	function register_menu() {
-	  register_nav_menu('menu_top',__( 'menu_top' ));
-	  
-		register_nav_menus( array(
-			'menu_top' => 'Header - Menu'
-		) );
+        register_nav_menu('menu_top',__( 'menu_top' ));
+
+        register_nav_menus( array(
+            'menu_top' => 'Header - Menu',
+            'menu_acc' => 'Accomodation - Menu',
+            'menu_diving' => 'Diving - Menu'
+        ) );
+        register_nav_menu('menu_acc',__( 'menu_acc' ));
+        register_nav_menu('menu_diving',__( 'menu_diving' ));
+
 	}
 	add_action( 'init', 'register_menu' );
 
