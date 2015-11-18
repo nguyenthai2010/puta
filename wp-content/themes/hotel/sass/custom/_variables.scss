@@ -25,6 +25,34 @@
   font-weight: 700;
 }
 
+/*===================FUNCTIONS=====================*/
+@mixin animate($time){
+  -webkit-transition: all $time;
+  -moz-transition: all $time;
+  transition: all $time;
+}
+
+@mixin bg_full()
+{
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@mixin setOpacity ($value) {
+  opacity: $value;
+  filter: alpha(opacity=$value*100);
+}
+
+@mixin objAbsoluteMiddle() {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%); /* IE 9 */
+  -webkit-transform: translate(-50%, -50%); /* Safari */
+}
 /*===================COLOR=====================*/
 $white: #fff;
 $c333: #333;
