@@ -56,3 +56,13 @@ h2 {
 .small-border {
   height: 4px;
 }
+
+#map-container {
+  height: 400px;
+  position: relative;
+
+  .acf-map {
+    height: 100%;
+    width: 100%;
+  }
+}
