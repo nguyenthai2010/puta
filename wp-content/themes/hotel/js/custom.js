@@ -267,7 +267,7 @@ jQuery(".room-item .desc").fadeTo(0, 0);
 
     jQuery(window).on("scroll", function() {
         var fromTop = jQuery(window).scrollTop();
-        console.log(fromTop);
+        //console.log(fromTop);
         jQuery("body").toggleClass("down", (fromTop > 240));
     });
 
