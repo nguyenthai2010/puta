@@ -94,7 +94,7 @@
 <!-- content close -->
 <div class="clearfix"></div>
 <!-- content begin -->
-<div id="content" >
+<div id="content" class="home-content">
     <div class="container" id="home-things">
 
         <div class="row">
@@ -121,7 +121,7 @@
                 $content = $postthing->post_content;
                 $img = wp_get_attachment_url( get_post_thumbnail_id($postthing->ID) );
                 ?>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-md-3 col-sm-6 col-homething-content">
                     <div class="col">
                         <img src="<?=$img?>">
                         <h4><?=$title?></h4>

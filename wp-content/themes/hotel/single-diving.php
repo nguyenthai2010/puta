@@ -21,7 +21,7 @@ while ( have_posts() ) : the_post();
                 $i++;
             if($i%2!=0){
         ?>
-        <section id="diving-1" class="side-bg no-bottom">
+        <section id="diving-1" class="side-bg no-bottom side-bg-<?php echo $i;?>">
             <div class="col-md-4 col-md-offset-8 pull-right image-container">
                 <div class="background-image" style="background: url(<?php echo $dv_row['thumbnail']?>)"></div>
             </div>

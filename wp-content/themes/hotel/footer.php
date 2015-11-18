@@ -18,7 +18,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-2 col-sm-3">
-                <h3>ACCOMODATION</h3>
+                <h3 class="f-h3">ACCOMODATION</h3>
 
                 <?php
                 $nav = array(
@@ -37,7 +37,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-md-2 col-sm-3">
-                <h3>DIVING</h3>
+                <h3 class="f-h3">DIVING</h3>
                 <?php
                 $nav = array(
                     'theme_location'  => 'menu_diving',

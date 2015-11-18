@@ -1,3 +1,7 @@
+/*FAQ*/
+#content.faq-content{
+  padding-top: 75px;
+}
 /*
 Accomodation page
 --------------------------
@@ -23,7 +27,7 @@ Gallery
 .room-single {
   .inner{
     background: #f3f3f3;
-    padding: 40px 25px 40px 39px;;
+    padding: 40px 25px 30px 39px;;
     .text{
       h4{
         @include Oswald-Regular(18px,1);
@@ -79,7 +83,7 @@ Diving page
     }
   }
   .side-bg{
-    padding-top: 75px;
+    padding-top: 70px;
   }
   h2.diving-title{
     @include Oswald-Light(28px,1);
@@ -387,7 +391,7 @@ FAQ page
         }
       }
       .small-border{
-        margin: 47px 0 40px 0;
+        margin: 48px 0 38px 0;
       }
     }
   }
@@ -398,6 +402,9 @@ CONTACT page
 */
 
 .contact-content{
+  &#content{
+    padding: 58px 0;
+  }
   .cleft-column{
     .widget-text{
       background: #f3f3f3;
@@ -460,6 +467,7 @@ CONTACT page
     padding: 0 9px;
     height: 38px;
     border-radius: 0;
+    outline: none;
     line-height: 38px;
     &.error{
       display: block;
@@ -519,6 +527,54 @@ CONTACT page
 .col-choosedive{
   margin-bottom: 8px;
 }
+/*Spa*/
+.spa-page{
+  .inner-text{
+    h2{
+      margin-bottom: 25px;
+    }
+  }
+  .side-bg{
+    padding: 37px 0 30px 0;
+  }
+}
+/*Location*/
+#content.location-content{
+  padding: 48px 0 42px 0;
+  .title-text{
+    h2{
+      line-height: 1.2;
+    }
+  }
+}
+/*Home*/
+#home-things{
+  .col-homething-content{
+    .col{
+      p{
+        line-height: 1.4;
+        padding-bottom: 30px;
+      }
+    }
+  }
+}
+/*ABOUT*/
+.about-page{
+  .inner-about-text{
+    h2{
+      margin-bottom: 23px;
+    }
+    p{
+      margin-bottom: 13px;
+    }
+    .small-border{
+      margin-top: 7px;
+    }
+  }
+  .side-bg{
+    padding: 17px 0 10px 0;
+  }
+}
 /*
 Responsive
 */
@@ -541,6 +597,30 @@ Responsive
   }
 }
 @media only screen and (min-width: 0px) and (max-width: 992px) {
+  .spa-page{
+    .inner-padding, .side-bg{
+      padding-bottom: 0;
+    }
+    .side-bg-1{
+      padding-top: 0;
+    }
+    .no-marginbottom{
+      margin-bottom: 0!important;
+    }
+  }
+  .diving-content .side-bg, .diving-content #diving-2{
+    padding-top:0;
+  }
+  .about-page{
+    .side-bg-1{
+      padding-top:0;
+    }
+  }
+  #home-things{
+    .row{
+      margin-left: -15px;
+    }
+  }
   #mainmenu-container #mainmenu>li:after{
     display: none;
   }

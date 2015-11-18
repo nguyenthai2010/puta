@@ -9,7 +9,7 @@
 <!-- subheader close -->
 
 <!-- content begin -->
-<div id="content" class="no-top no-bottom">
+<div id="content" class="no-top no-bottom spa-page">
     <?php
 
     $args = array(
@@ -36,20 +36,20 @@
             $extraClass = 'col-md-5 col-md-offset-7';
         }
         ?>
-        <section id="explore-1" class="side-bg">
+        <section id="explore-1" class="side-bg side-bg-<?php echo $i;?>">
             <div class="col-md-6 col-md-offset-6 <?=$pullClass?> image-container">
                 <div class="background-image" style='background: url("<?=$url_image?>");'></div>
             </div>
 
             <div class="container">
                 <div class="row">
-                    <div class="<?=$extraClass?>">
-                        <div class="inner-padding">
+                    <div class="no-marginbottom <?=$extraClass?>">
+                        <div class="inner-padding inner-text">
                             <h2><?=$name?></h2>
 
 
                             <?=$description?>
-                            <div class="small-border"></div>
+                            <div class="no-marginbottom small-border"></div>
                         </div>
 
                     </div>
