@@ -6,7 +6,7 @@ $query_object = get_queried_object();
 while ( have_posts() ) : the_post();
     ?>
     <!-- subheader begin -->
-    <div id="subheader" class="subheader-diving" style="background:url(<?php echo get_field('sub-diving','option');?>) top center no-repeat">
+    <div id="subheader" class="subheader-diving" style="background:url(<?php echo get_field('sub-diving','option');?>) top center no-repeat; background-size: cover;">
         <h1><?php echo $query_object->post_type;?></h1>
         <h3><?php echo the_title()?></h3>
     </div>

@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <!-- subheader begin -->
-<div id="subheader" class="subheadercontact" style="background:url(<?php echo get_field('sub-contact','option');?>) top center no-repeat">
+<div id="subheader" class="subheadercontact" style="background:url(<?php echo get_field('sub-contact','option');?>) top center no-repeat; background-size: cover;">
     <h1>CONTACT</h1>
     <h3>GET IN TOUCH</h3>
 </div>
