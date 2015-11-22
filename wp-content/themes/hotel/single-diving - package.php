@@ -68,131 +68,89 @@ while ( have_posts() ) : the_post();
                     <div class="col-md-8 col-md-offset-45">
                         <div class="inner-padding">
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>BeST of Amed and Tulamben</h1>
-                                <h3 class="h3font22">2 NIGHTS/3 DAYS - 5 DIVES</h3>
-                                <p>Ideal package for people who like to spend two days diving in Amed and Tulamben! It is perfect if you want to see the best dive sites Amed and Tulamben have to offer. You will explore the rich coral gardens of Bunutan and Japanese Wreck. On the second day you will leave for Tulamben and have a look at the 120 m long USS Liberty Shipwreck. </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room: 2.300.000 IDR/pp<br/>
-                                        Villa Superior Room: 2.400.000 IDR/pp<br/>
-                                        Villa Master bedroom: 2.650.000 IDR/pp<br/>
-                                        Low Season: - 50.000 IDR/pp<br/>
-                                        High Season: + 100.000 IDR/pp
-                                    </p>
+                                <div class="plus-close" style="display: block;"></div>
+                                <h1 class="h1title linkcollapse active"><i></i>BeST of Amed and Tulamben</h1>
+                                <div class="collapse-content" style="display: block;">
+                                    <h3 class="h3font22">2 NIGHTS/3 DAYS - 5 DIVES</h3>
+                                    <p>Ideal package for people who like to spend two days diving in Amed and Tulamben! It is perfect if you want to see the best dive sites Amed and Tulamben have to offer. You will explore the rich coral gardens of Bunutan and Japanese Wreck. On the second day you will leave for Tulamben and have a look at the 120 m long USS Liberty Shipwreck.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room: 2.300.000 IDR/pp<br /> Villa Superior Room: 2.400.000 IDR/pp<br /> Villa Master bedroom: 2.650.000 IDR/pp<br /> Low Season: - 50.000 IDR/pp<br /> High Season: + 100.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>ALL YOU CAN DIVE</h1>
-                                <h3 class="h3font22">4 NIGHTS/5 DAYS - 10 DIVES + 1 free dive</h3>
-                                <p>
-                                    This dive package will take you to all the best dive sites in the area. If you are crazy about diving then this is the dive package you are looking for! You will do 10 dives in 4 days and you will get 1 FREE DIVE as well.
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room: 4.650.000 IDR/pp<br/>
-                                        Villa Superior Room: 4.850.000 IDR/pp<br/>
-                                        Villa Master bedroom: 5.350.000 IDR/pp<br/>
-                                        Low Season: - 100.000 IDR/pp<br/>
-                                        High Season: + 200.000 IDR/pp
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse"><i></i>ALL YOU CAN DIVE</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">4 NIGHTS/5 DAYS - 10 DIVES + 1 free dive</h3>
+                                    <p>This dive package will take you to all the best dive sites in the area. If you are crazy about diving then this is the dive package you are looking for! You will do 10 dives in 4 days and you will get 1 FREE DIVE as well.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room: 4.650.000 IDR/pp<br /> Villa Superior Room: 4.850.000 IDR/pp<br /> Villa Master bedroom: 5.350.000 IDR/pp<br /> Low Season: - 100.000 IDR/pp<br /> High Season: + 200.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>OPEN WATER PACKAGE</h1>
-                                <h3 class="h3font22">3 NIGHTS/4 DAYS - 4 DIVES + 1 free dive</h3>
-                                <p>
-                                    3 nights/4 days accomodation<br/>
-                                    5 Pool sessions, 4 Open Water Dives
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room: 5.025.000 IDR/pp<br/>
-                                        Villa Superior Room: 5.175.000 IDR/pp<br/>
-                                        Villa Master bedroom: 5.550.000 IDR/pp<br/>
-                                        Low Season: - 75.000 IDR/pp<br/>
-                                        High Season: + 150.000 IDR/pp
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse"><i></i>OPEN WATER PACKAGE</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">3 NIGHTS/4 DAYS - 4 DIVES + 1 free dive</h3>
+                                    <p>3 nights/4 days accomodation<br /> 5 Pool sessions, 4 Open Water Dives</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room: 5.025.000 IDR/pp<br /> Villa Superior Room: 5.175.000 IDR/pp<br /> Villa Master bedroom: 5.550.000 IDR/pp<br /> Low Season: - 75.000 IDR/pp<br /> High Season: + 150.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>ADVANCED + NITROX</h1>
-                                <h3 class="h3font22">2 NIGHTS/3 DAYS - 5 DIVES + 1 free</h3>
-                                <p>
-                                    2 nights/3 days accomodation<br/>
-                                    5 Advanced Open Water Dives + Nitrox
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room: 5.350.000 IDR/pp<br/>
-                                        Villa Superior Room: 5.450.000 IDR/pp<br/>
-                                        Villa Master bedroom: 5.700.000 IDR/pp<br/>
-                                        Low Season: - 50.000 IDR/pp<br/>
-                                        High Season: + 100.000 IDR/pp
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse"><i></i>ADVANCED + NITROX</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">2 NIGHTS/3 DAYS - 5 DIVES + 1 free</h3>
+                                    <p>2 nights/3 days accomodation<br /> 5 Advanced Open Water Dives + Nitrox</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room: 5.350.000 IDR/pp<br /> Villa Superior Room: 5.450.000 IDR/pp<br /> Villa Master bedroom: 5.700.000 IDR/pp<br /> Low Season: - 50.000 IDR/pp<br /> High Season: + 100.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>FROM ZERO TO HERO</h1>
-                                <h3 class="h3font22">6 NIGHTS/7 DAYS - 9 DIVES + 1 free</h3>
-                                <p>
-                                    6 nights/7 days accommodation<br/>
-                                    Open Water Course<br/>
-                                    Advanced Open Water Course<br/>
-                                    Enriched Air/Nitrox CourseTotal Dives: 9 + 1 FREE DIVE
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room: 10.650.000 IDR/pp<br/>
-                                        Villa Superior Room: 10.950.000 IDR/pp<br/>
-                                        Villa Master bedroom: 11.700.000 IDR/pp<br/>
-                                        Low Season: - 150.000 IDR/pp<br/>
-                                        High Season: + 300.000 IDR/pp
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse"><i></i>FROM ZERO TO HERO</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">6 NIGHTS/7 DAYS - 9 DIVES + 1 free</h3>
+                                    <p>6 nights/7 days accommodation<br /> Open Water Course<br /> Advanced Open Water Course<br /> Enriched Air/Nitrox CourseTotal Dives: 9 + 1 FREE DIVE</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room: 10.650.000 IDR/pp<br /> Villa Superior Room: 10.950.000 IDR/pp<br /> Villa Master bedroom: 11.700.000 IDR/pp<br /> Low Season: - 150.000 IDR/pp<br /> High Season: + 300.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>DEEP + WRECK + NIGHT + NITROX</h1>
-                                <h3 class="h3font22">4 NIGHTS/5 DAYS - 8 DIVES + 1 free</h3>
-                                <p>
-                                    The ultimate speciality course. You will have it all at the end! Deep dives on the USS Liberty Shipwreck. Do your night dives with Nitrox and you can stay underwater forever! You will do 8 dives and there will be a small theory exam for every speciality.
-                                </p>
-                                <p>
-                                    4 nights/5 days accommodation + breakfast<br/>
-                                    PADI Deep Diver Speciality<br/>
-                                    PADI Wreck Diver Speciality<br/>
-                                    PADI Night Diver Speciality<br/>
-                                    PADI Nitrox Diver Speciality
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        Deluxe Room Resort: 9.000.000 IDR/pp<br/>
-                                        Low Season: - 100.000 IDR/pp<br/>
-                                        High Season: + 200.000 IDR/pp
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse"><i></i>DEEP + WRECK + NIGHT + NITROX</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">4 NIGHTS/5 DAYS - 8 DIVES + 1 free</h3>
+                                    <p>The ultimate speciality course. You will have it all at the end! Deep dives on the USS Liberty Shipwreck. Do your night dives with Nitrox and you can stay underwater forever! You will do 8 dives and there will be a small theory exam for every speciality.</p>
+                                    <p>4 nights/5 days accommodation + breakfast<br /> PADI Deep Diver Speciality<br /> PADI Wreck Diver Speciality<br /> PADI Night Diver Speciality<br /> PADI Nitrox Diver Speciality</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">Deluxe Room Resort: 9.000.000 IDR/pp<br /> Low Season: - 100.000 IDR/pp<br /> High Season: + 200.000 IDR/pp</p>
+                                    </div>
+                                    <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
                                 </div>
-                                <p>Prices are normal season rate per person based on 2 people sharing the room and doing the package. If you would like to do a package by yourself there is a surcharge depending on the room type.</p>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
                         </div>
                     </div>

@@ -86,8 +86,9 @@ while ( have_posts() ) : the_post();
                 <div class="col-md-8 col-md-offset-45">
                     <div class="inner-padding">
                         <div class="diving-box-2">
-                            <h1 class="h1title"><i></i>Bali Reef Divers Equipment List</h1>
-                            <div class="ultypecircle">
+                            <div class="plus-close"></div>
+                            <h1 class="h1title linkcollapse active"><i></i>Bali Reef Divers Equipment List</h1>
+                            <div class="ultypecircle collapse-content" style="display: block;">
                                 <ul>
                                     <li>Aqualung Wave BCD</li>
                                     <li>Aqualung Calypso Regulators</li>
@@ -98,39 +99,29 @@ while ( have_posts() ) : the_post();
                                     <li>Aqualung Short 3 mm wetsuits</li>
                                 </ul>
                             </div>
-                            <div class="small-border"></div>
+                            <div class="small-border"> </div>
                         </div>
-
                         <div class="diving-box-2">
-                            <h1 class="h1title"><i></i>DIVE CONDITIONS</h1>
-                            <h3 class="h3font22">DECEMBER - APRIL</h3>
-                            <p>
-                                Wet season. Water temperature varies between 28-31 degrees. Although it is wet season and we have quite some rain in january and february it is still possible to dive. There are many good days and always a few dive sites to visit, even on the rainy days. This is a good time to see sharks in Tulamben.
-                            </p>
-
-                            <h3 class="h3font22 padtop15">APRIL - SEPTEMBER</h3>
-                            <p>Dry season. Water temperature starts to drop from end of may to about 25-28 degrees. It gets windy in july and august but that doesn't really effect the visibility. It tends to get very crowded on the popular dive sites. Many days of good visibility because it doesn't rain at all during this period. There tends to be more macro life around this time of the year.
-                            </p>
-
-                            <h3 class="h3font22 padtop15">SEPTEMBER - DECEMBER</h3>
-                            <p>
-                                Probably the best time of the year to dive in Bali. The crowds of july and august are gone and the wind dropped as well. The sea will be quite flat around this time of the year and because of the strong current and no rain the visibility can be excellent for a long time. There are some bigger fish like sharks and barraccudas around Amed starting from end of august
-                            </p>
-                            <div class="small-border"></div>
+                            <div class="plus-close"></div>
+                            <h1 class="h1title linkcollapse"><i></i>DIVE CONDITIONS</h1>
+                            <div class="collapse-content">
+                                <h3 class="h3font22">DECEMBER - APRIL</h3>
+                                <p>Wet season. Water temperature varies between 28-31 degrees. Although it is wet season and we have quite some rain in january and february it is still possible to dive. There are many good days and always a few dive sites to visit, even on the rainy days. This is a good time to see sharks in Tulamben.</p>
+                                <h3 class="h3font22 padtop15">APRIL - SEPTEMBER</h3>
+                                <p>Dry season. Water temperature starts to drop from end of may to about 25-28 degrees. It gets windy in july and august but that doesn't really effect the visibility. It tends to get very crowded on the popular dive sites. Many days of good visibility because it doesn't rain at all during this period. There tends to be more macro life around this time of the year.</p>
+                                <h3 class="h3font22 padtop15">SEPTEMBER - DECEMBER</h3>
+                                <p>Probably the best time of the year to dive in Bali. The crowds of july and august are gone and the wind dropped as well. The sea will be quite flat around this time of the year and because of the strong current and no rain the visibility can be excellent for a long time. There are some bigger fish like sharks and barraccudas around Amed starting from end of august</p>
+                            </div>
+                            <div class="small-border"> </div>
                         </div>
-
                         <div class="diving-box-2">
-                            <h1 class="h1title"><i></i>WHAT TO BRING</h1>
-
-                            <p>
-                                If possible bring at least your own <b>dive mask and dive computer.</b>
-                            </p>
-                            <p>
-                                <b>Sunscreen</b> for in between the dives. The sun can be very strong during the day!
-                            </p>
-                            <p>
-                                If you bring your own dive equipment and you use a DIN regulator don't forget to bring an <b>adapter</b>.<br/> We have 1 or 2 adapters around but they might be used already.
-                            </p>
+                            <div class="plus-close"></div>
+                            <h1 class="h1title linkcollapse"><i></i>WHAT TO BRING</h1>
+                            <div class="collapse-content">
+                                <p>If possible bring at least your own <b>dive mask and dive computer.</b></p>
+                                <p><b>Sunscreen</b> for in between the dives. The sun can be very strong during the day!</p>
+                                <p>If you bring your own dive equipment and you use a DIN regulator don't forget to bring an <b>adapter</b>.<br /> We have 1 or 2 adapters around but they might be used already.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

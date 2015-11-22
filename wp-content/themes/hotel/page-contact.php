@@ -33,11 +33,11 @@
                     <h4 class="h4font18">Diving</h4>
                     <p class="phone"><a href="mailto:info@balireefdivers.com">info@balireefdivers.com</a></p>
                     <div class="social-icons">
-                        <a href="#">
+                        <a href="<?php echo get_field('facebook_link','option');?>" target="_blank">
                             <img src="img/social-icons/sharing-ico1.png" alt=""></a>
-                        <a href="#">
+                        <a href="<?php echo get_field('twitter_link','option');?>" target="_blank">
                             <img src="img/social-icons/sharing-ico2.png" alt=""></a>
-                        <a href="#">
+                        <a href="<?php echo get_field('youtube_link','option');?>" target="_blank">
                             <img src="img/social-icons/sharing-ico3.png" alt=""></a>
                     </div>
                 </div>

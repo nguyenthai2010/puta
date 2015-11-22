@@ -40,7 +40,9 @@ footer {
       a {
         color:#edb83a;
         text-decoration: underline;
-
+        &.clsmailto{
+          text-transform: none;
+        }
         &:hover {
           color:#edb83a;
         }

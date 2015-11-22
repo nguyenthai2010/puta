@@ -17,6 +17,7 @@
                     <div class="col01">
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Where is Puri WIrata?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>Puri Wirata is located in Bunutan, Amed.  Amed is located in East Bali, about 100km from the airport/Denpasar (or about a 2,5h drive).</p>
@@ -27,6 +28,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>How can I get to Puri Wirata?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>
@@ -45,6 +47,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Is Puri Wirata a 5 star resort?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>Puri Wirata is not a 5 star resort. We are a small family owned resort, nothing corporate about us. We are however a PADI 5 Star resort, which references to the services provided by our divecenter (Bali Reef Divers). </p>
@@ -56,6 +59,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i><div class="q-text"><span>I want a room with sea view,</span>
                             <span>which room can you recommend me?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
@@ -68,6 +72,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Which methods of payment do you accept?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>As of July 2015, a new government regulation tells us we can only accept payments in Indonesian Rupiah. </p>
@@ -80,6 +85,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Are you close to the center of Amed?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>Amed doesn’t really has a center. One would consider Jemeluk bay as the center of Amed, as this is where the boats to the Gili Islands leave/arrive, so that gets quite busy. Puri Wirata is 2km from Jemeluk. However, in our opinion, the better restaurants of Amed are within walking distance from Amed. Snorkeling spots are spread out over the length of the coast, so the best is to get a scooter and get around. </p>
@@ -92,6 +98,7 @@
                     <div class="col01">
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>How can we get to the Gili Islands from Amed?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
                                     <p>
@@ -106,6 +113,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>I heard snorkeling around Amed is good.</span>
                                 <span>How can I snorkel?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
@@ -119,6 +127,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Can I go diving if I never dove before?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
 
@@ -132,6 +141,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Do I need to book up front for diving?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
 
@@ -142,6 +152,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Do I need to book up front for your Spa?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
 
@@ -152,6 +163,7 @@
 
                         <div class="question-row">
                             <div class="question-head">
+                                <div class="plus-close"></div>
                                 <div class="question-new"><i><img src="img/faq/plus.png"/></i> <div class="q-text"><span>Do you serve vegetarian food?</span></div><div class="clear"></div></div>
                                 <div class="answer-box">
 
@@ -172,10 +184,14 @@
 <script>
     jQuery(document).ready(function(){
         jQuery('.question-box .question-new').on('click',function(){
-            jQuery('.question-box .question-new').removeClass('active');
             jQuery(this).addClass('active');
-            jQuery('.question-box .answer-box').css({'display':'none'});
+            jQuery(this).parent().find('.plus-close').show();
             jQuery(this).parent().find('.answer-box').fadeIn(300);
        });
+        jQuery('.question-box .plus-close').click(function(){
+            jQuery(this).parent().find('.question-new').removeClass('active');
+            jQuery(this).hide();
+            jQuery(this).parent().find('.answer-box').hide();
+        });
     });
 </script>

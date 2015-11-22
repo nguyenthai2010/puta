@@ -12,7 +12,7 @@
                         <?php echo get_field('phone_footer','option');?>
                     </span>
                     <span>
-                        <a href="mailto:<?php echo get_field('email_footer','option');?>"><?php echo get_field('email_footer','option');?></a>
+                        <a class="clsmailto" href="mailto:<?php echo get_field('email_footer','option');?>"><?php echo get_field('email_footer','option');?></a>
                     </span>
                 </address>
                 <div class="clearfix"></div>
