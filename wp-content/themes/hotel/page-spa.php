@@ -2,7 +2,7 @@
 <?php get_header();?>
 
 <!-- subheader begin -->
-<div id="subheader">
+<div id="subheader" class="spa">
     <h1>SPA</h1>
     <h3>NURTURE YOUR BODY</h3>
 </div>
@@ -15,7 +15,7 @@
     $args = array(
         'post_type' 	 => 'spa',
         'posts_per_page' => -1 ,
-        'order'			 => 'desc'
+        'order'			 => 'asc'
     );
     $queryRows = get_posts($args);
     ?>

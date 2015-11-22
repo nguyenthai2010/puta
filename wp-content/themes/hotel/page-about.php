@@ -15,7 +15,7 @@
     $args = array(
         'post_type' 	 => 'about',
         'posts_per_page' => -1 ,
-        'order'			 => 'desc'
+        'order'			 => 'asc'
     );
     $queryRows = get_posts($args);
     ?>

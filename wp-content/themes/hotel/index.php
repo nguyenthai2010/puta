@@ -120,14 +120,19 @@
                 $title = get_the_title($postthing->ID);
                 $content = $postthing->post_content;
                 $img = wp_get_attachment_url( get_post_thumbnail_id($postthing->ID) );
+                $links = get_field('links',$postthing->ID);
                 ?>
                 <div class="col-md-3 col-sm-6 col-homething-content">
                     <div class="col">
-                        <img src="<?=$img?>">
-                        <h4><?=$title?></h4>
-                        <p>
-                            <?=$content?>
-                        </p>
+                        <a href="<?=bloginfo('home').$links?>">
+
+
+                            <img src="<?=$img?>">
+                            <h4><?=$title?></h4>
+                            <p>
+                                <?=$content?>
+                            </p>
+                        </a>
                     </div>
                 </div>
 

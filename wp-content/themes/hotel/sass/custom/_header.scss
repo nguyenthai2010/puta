@@ -39,6 +39,7 @@
 
       & > a {
         position: relative;
+        @include Oswald-Light(18px, 15px);
 
         &:after {
           content: ' ';
@@ -77,6 +78,7 @@
             padding: 20px ;
             background: #fff;
             color: #999999;
+            @include Oswald-Light(14px);
 
             &:hover {
               background: #edb83a;

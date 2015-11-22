@@ -105,7 +105,10 @@
     color: #ffffff;
     background: #edb83a;
 
-
+    a {
+      color: #ffffff;
+      text-decoration: none;
+    }
     h4 {
       @include Oswald-Regular(20px);
       color: #ffffff;
