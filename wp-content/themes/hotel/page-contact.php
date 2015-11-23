@@ -146,3 +146,9 @@
         });
     });
 </script>
+
+<script type="text/javascript">
+    $(function () {
+        $(".col-choosereserve select, .col-choosedive select").selectbox();
+    });
+</script>

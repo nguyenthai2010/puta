@@ -529,8 +529,7 @@ CONTACT page
   }
   .contact_form_holder input, .contact_form_holder textarea, .contact_form_holder select{
     @include Roboto-Regular(12px, 1.3);
-    color: $c333;
-    color: #333;
+    color: #000;
     border: 1px solid #e1e1e1;
     margin-bottom: 17px !important;
     padding: 0 9px;
@@ -538,21 +537,22 @@ CONTACT page
     border-radius: 0;
     outline: none;
     line-height: 38px;
+    outline: none;
     &.error{
       display: block;
       border-color: red;
     }
     &::-webkit-input-placeholder { /* WebKit browsers */
-      color:    $c333;
+      color:    #000;
     }
     &:-moz-placeholder{ /* Mozilla Firefox 4 to 18 */
-      color:    $c333;
+      color:    #000;
     }
     &::-moz-placeholder{ /* Mozilla Firefox 19+ */
-      color:    $c333;
+      color:    #000;
     }
     &:-ms-input-placeholder{ /* Internet Explorer 10+ */
-      color:    $c333;
+      color:    #000;
     }
   }
   .contact_form_holder select{
@@ -567,6 +567,7 @@ CONTACT page
     height: 170px;    resize: none;
   }
   .col-choosereserve{
+    margin-bottom: 18px;
     .reserveroom{
       margin-bottom: 0!important;
     }
@@ -594,7 +595,7 @@ CONTACT page
   text-transform: uppercase;
 }
 .col-choosedive{
-  margin-bottom: 8px;
+  margin-bottom: 25px;
 }
 /*Spa*/
 .spa-page{

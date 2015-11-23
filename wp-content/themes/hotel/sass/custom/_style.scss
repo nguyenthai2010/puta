@@ -70,3 +70,13 @@ h3{
     width: 100%;
   }
 }
+#contact{
+  div.wpcf7-mail-sent-ok{
+    border: none;
+  }
+  div.wpcf7-response-output{
+    @include Roboto-Regular(16px, 1.4);
+    margin-top:0;
+    color: #edb83a;
+  }
+}

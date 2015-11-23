@@ -94,6 +94,7 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.validate.js"></script>
+<script src="js/jquery.selectbox-0.2.js"></script>
 <script src="js/custom.js"></script>
 <?php wp_footer(); ?>
 </body>
