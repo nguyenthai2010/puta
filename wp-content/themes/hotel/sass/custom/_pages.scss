@@ -285,10 +285,39 @@ Diving Fundives
     padding-bottom: 45px;
   }
 }
-
+.content-diving-sub-packages{
+  #diving-2{
+    &.side-bg{
+      min-height: 836px;
+    }
+    .image-container{
+      height: 800px;
+      .background-image{
+        height: 800px;
+      }
+    }
+  }
+}
+.content-diving-sub-courses{
+  #diving-2{
+    &.side-bg{
+      min-height: 736px;
+    }
+    .image-container{
+      height: 716px;
+      .background-image{
+        height: 716px;
+      }
+    }
+  }
+}
 .content-diving-sub-fundives{
   #diving-2{
+    &.side-bg{
+      min-height: 736px;
+    }
     .image-container{
+      height: 716px;
       .background-image{
         height: 716px;
       }
