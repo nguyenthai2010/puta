@@ -96,6 +96,8 @@
 <script src="js/jquery.validate.js"></script>
 <script src="js/jquery.selectbox-0.2.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type='text/javascript' src='js/class.googlemap.js'></script>x
 <?php wp_footer(); ?>
 </body>
 </html>

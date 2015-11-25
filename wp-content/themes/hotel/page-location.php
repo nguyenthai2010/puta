@@ -40,13 +40,15 @@ $map = get_field('location_map', get_the_ID());
         <div class="marker" data-lat="<?php echo $map['lat']; ?>" data-lng="<?php echo $map['lng']; ?>" marker_id='1'></div>
     </div>
 </div>
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<script type='text/javascript' src='js/class.googlemap.js'></script>
+
+
+<?php get_footer();?>
+
 
 <script type="text/javascript">
     jQuery(document).ready(function(){
         jQuery('.acf-map').each(function(){
-            clsGoogleMap.render_map( jQuery(this) );
+            clsGoogleMap.render_map( jQuery(this),'' );
         });
         $(document).on('click','[map-marker-event]',function(){
             var marker_id = $(this).attr('map-marker-event');
@@ -55,6 +57,3 @@ $map = get_field('location_map', get_the_ID());
         });
     });
 </script>
-
-<?php get_footer();?>
-

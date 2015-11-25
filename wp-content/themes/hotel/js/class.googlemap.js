@@ -4,7 +4,7 @@ var clsGoogleMap = (function() {
 	var map = null;
 	var arrMarkers = {};
     //MAP
-    function render_map( $el ) {
+    function render_map( $el, icon_marker ) {
 
         // var
         var $markers = $el.find('.marker');
@@ -22,11 +22,11 @@ var clsGoogleMap = (function() {
 
         // add a markers reference
         map.markers = [];
-
+        console.log($markers);
         // add markers
         $markers.each(function(){
 
-            add_marker( $(this),map );
+            add_marker( $(this),map, icon_marker );
 
         });
 
@@ -48,19 +48,30 @@ var clsGoogleMap = (function() {
      *  @param	map (Google Map object)
      *  @return	n/a
      */
-
-    function add_marker( $marker, map ) {
+    function add_marker( $marker, map, icon_marker ) {
 
         // var
         var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
 		var marker_id = $marker.attr('marker_id');
         // create marker
-        var marker = new google.maps.Marker({
-            position	: latlng,
-            map			: map,
-			animation	: google.maps.Animation.DROP,
-			marker_id	: marker_id
-        });
+        if(icon_marker!=''){
+            var marker = new google.maps.Marker({
+                position	: latlng,
+                map			: map,
+                animation	: google.maps.Animation.DROP,
+                marker_id	: marker_id,
+                icon: icon_marker
+            });
+        }else{
+            var marker = new google.maps.Marker({
+                position	: latlng,
+                map			: map,
+                animation	: google.maps.Animation.DROP,
+                marker_id	: marker_id
+            });
+        }
+
+
         // add to array
         map.markers.push( marker );		 
         // if marker contains HTML, add it to an infoWindow
@@ -69,16 +80,25 @@ var clsGoogleMap = (function() {
         {
             // create info window
             var infowindow = new google.maps.InfoWindow({
-                content		: $marker.html()
+                content		: '<div id="iw_content">' + $marker.html() + '</div>'
             });
             // show info window when marker is clicked            
         }
 		google.maps.event.addListener(marker, 'click', function() {
 			map.panTo(this.getPosition());	
-			map.setZoom(12);
+			map.setZoom(16);
 			if(infowindow != null)
 				infowindow.open( map, marker );
 		});
+        google.maps.event.addListener(infowindow, 'domready', function () {
+            el = document.getElementById('iw_content').parentNode.parentNode.parentNode;
+            el.firstChild.setAttribute('class', 'closeInfoWindow');
+            el.firstChild.setAttribute('title', 'Close Info Window');
+            el = el.previousElementSibling || el.previousSibling;
+            el.setAttribute('class', 'infoWindowBackground');
+            el.remove();
+
+        });
 		arrMarkers[marker_id] =marker;
 
     }
@@ -120,7 +140,7 @@ var clsGoogleMap = (function() {
         {
             // set center of map
             map.setCenter( bounds.getCenter() );
-            map.setZoom( 16 );
+            map.setZoom( 15 );
         }
         else
         {

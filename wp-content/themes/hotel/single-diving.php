@@ -29,7 +29,19 @@ while ( have_posts() ) : the_post();
                 <?php echo $dv_row['left_content']?>
             </div>
         </section>
-        <?php if(!empty($dv_row['diving_map'])){?><div class="mapbackground" style="background: url(<?php echo $dv_row['diving_map']?>) no-repeat center;width: 100%;background-size: cover;height: 463px;display: block;"></div><?php }?>
+                <div class="mapbackground" style="height: 463px; width: 100%;">
+                    <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
+                        <?php
+                            foreach( $dv_row['diving_map'] as $dv_map ){
+                        ?>
+                            <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+                                <!--<div class="info">Jemeluk</div>-->
+                            </div>
+                           <?php } ?>
+
+                    </div>
+                </div>
+        <?php /*if(!empty($dv_row['diving_map'])){*/?><!--<div class="mapbackground" style="background: url(<?php /*echo $dv_row['diving_map']*/?>) no-repeat center;width: 100%;background-size: cover;height: 463px;display: block;"></div>--><?php /*}*/?>
         <?php } else {?>
         <section id="diving-2" class="side-bg">
             <div class="col-md-4 col-md-offset-4 bg-gray"></div>
@@ -48,7 +60,18 @@ while ( have_posts() ) : the_post();
                 </div>
             </div>
         </section>
-        <?php if(!empty($dv_row['diving_map'])){?><div class="mapbackground" style="background: url(<?php echo $dv_row['diving_map']?>) no-repeat center;width: 100%;background-size: cover;height: 463px;display: block;"></div><?php }?>
+                <div class="mapbackground" style="height: 463px; width: 100%;">
+                    <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
+                        <?php
+                        foreach( $dv_row['diving_map'] as $dv_map ){
+                            ?>
+                            <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+
+                            </div>
+                        <?php } ?>
+
+                    </div>
+                </div>
         <?php } }?>
     </div>
     <!-- content close -->
@@ -57,6 +80,7 @@ endwhile;
 ?>
 <?php get_footer();?>
 
+<script type='text/javascript' src='js/class.googlemap.js'></script>
 <script>
     jQuery(document).ready(function(){
 
@@ -72,3 +96,20 @@ endwhile;
         });
     });
 </script>
+<script type="text/javascript">
+    jQuery(document).ready(function(){
+        jQuery('.mapbackground .acf-map-diving-1, .mapbackground .acf-map-diving-2, .mapbackground .acf-map-diving-3').each(function(){
+            clsGoogleMap.render_map( jQuery(this),'img/marker.png' );
+        });
+        $(document).on('click','[map-marker-event]',function(){
+            var marker_id = $(this).attr('map-marker-event');
+            clsGoogleMap.click_marker(marker_id);
+            return false;
+        });
+    });
+
+
+</script>
+<style>
+
+</style>
