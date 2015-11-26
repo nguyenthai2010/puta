@@ -29,18 +29,21 @@ while ( have_posts() ) : the_post();
                 <?php echo $dv_row['left_content']?>
             </div>
         </section>
-                <div class="mapbackground" style="height: 463px; width: 100%;">
-                    <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
-                        <?php
-                            foreach( $dv_row['diving_map'] as $dv_map ){
-                        ?>
-                            <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
-                                <!--<div class="info">Jemeluk</div>-->
-                            </div>
-                           <?php } ?>
+        <?php
+            if (count($dv_row['diving_map']) > 0){ ?>
+            <div class="mapbackground" style="height: 463px; width: 100%;">
+                <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
+                    <?php
+                        foreach( $dv_row['diving_map'] as $dv_map ){
+                    ?>
+                        <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+                            <?php /*if(!empty($dv_map['information_map'])) { */?><!--<div class="info"><?php /*echo $dv_map['information_map'];*/?></div>--><?php /*}*/?>
+                        </div>
+                       <?php } ?>
 
-                    </div>
                 </div>
+            </div>
+        <?php }?>
         <?php /*if(!empty($dv_row['diving_map'])){*/?><!--<div class="mapbackground" style="background: url(<?php /*echo $dv_row['diving_map']*/?>) no-repeat center;width: 100%;background-size: cover;height: 463px;display: block;"></div>--><?php /*}*/?>
         <?php } else {?>
         <section id="diving-2" class="side-bg">
@@ -60,18 +63,20 @@ while ( have_posts() ) : the_post();
                 </div>
             </div>
         </section>
-                <div class="mapbackground" style="height: 463px; width: 100%;">
-                    <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
-                        <?php
-                        foreach( $dv_row['diving_map'] as $dv_map ){
-                            ?>
-                            <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
-
-                            </div>
-                        <?php } ?>
-
+        <?php if (count($dv_row['diving_map']) > 0){ ?>
+        <div class="mapbackground" style="height: 463px; width: 100%;">
+            <div class="acf-map-diving-<?php echo $i;?>" style="height: 100%;">
+                <?php
+                foreach( $dv_row['diving_map'] as $dv_map ){
+                    ?>
+                    <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+                        <?php /*if(!empty($dv_map['information_map'])) { */?><!--<div class="info">$dv_map['information_map']</div>--><?php /*}*/?>
                     </div>
-                </div>
+                <?php } ?>
+
+            </div>
+        </div>
+            <?php }?>
         <?php } }?>
     </div>
     <!-- content close -->
