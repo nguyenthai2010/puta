@@ -22,13 +22,14 @@ var clsGoogleMap = (function() {
 
         // add a markers reference
         map.markers = [];
-        console.log($markers);
         // add markers
-        $markers.each(function(){
-
+        $markers.each(function(i){
             add_marker( $(this),map, icon_marker );
 
+
+
         });
+
 
         // center map
         center_map( map );
@@ -52,6 +53,7 @@ var clsGoogleMap = (function() {
 
         // var
         var latlng = new google.maps.LatLng( $marker.attr('data-lat'), $marker.attr('data-lng') );
+
 		var marker_id = $marker.attr('marker_id');
         // create marker
         if(icon_marker!=''){
@@ -76,30 +78,36 @@ var clsGoogleMap = (function() {
         map.markers.push( marker );		 
         // if marker contains HTML, add it to an infoWindow
         var infowindow = null;
-		if( $marker.html() )
+		if( $marker.children().length > 0 )
         {
             // create info window
             var infowindow = new google.maps.InfoWindow({
                 content		: '<div id="iw_content">' + $marker.html() + '</div>'
             });
-            // show info window when marker is clicked            
-        }
-		google.maps.event.addListener(marker, 'click', function() {
-			map.panTo(this.getPosition());	
-			map.setZoom(16);
-			if(infowindow != null)
-				infowindow.open( map, marker );
-		});
-        google.maps.event.addListener(infowindow, 'domready', function () {
-            el = document.getElementById('iw_content').parentNode.parentNode.parentNode;
-            el.firstChild.setAttribute('class', 'closeInfoWindow');
-            el.firstChild.setAttribute('title', 'Close Info Window');
-            el = el.previousElementSibling || el.previousSibling;
-            el.setAttribute('class', 'infoWindowBackground');
-            el.remove();
 
-        });
-		arrMarkers[marker_id] =marker;
+            // show info window when marker is clicked
+            google.maps.event.addListener(marker, 'click', function() {
+                map.panTo(this.getPosition());
+                map.setZoom(16);
+                if(infowindow != null)
+                    infowindow.open( map, marker );
+            });
+
+            google.maps.event.addListener(infowindow, 'domready', function () {
+                el = document.getElementById('iw_content').parentNode.parentNode.parentNode;
+                el.firstChild.setAttribute('class', 'closeInfoWindow');
+                el.firstChild.setAttribute('title', 'Close Info Window');
+                el = el.previousElementSibling || el.previousSibling;
+                el.setAttribute('class', 'infoWindowBackground');
+                el.remove();
+
+            });
+
+            arrMarkers[marker_id] =marker;
+        }else{
+        }
+
+
 
     }
 	
