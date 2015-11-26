@@ -36,8 +36,8 @@ while ( have_posts() ) : the_post();
                     <?php
                         foreach( $dv_row['diving_map'] as $dv_map ){
                     ?>
-                        <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
-                            <?php /*if(!empty($dv_map['information_map'])) { */?><!--<div class="info"><?php /*echo $dv_map['information_map'];*/?></div>--><?php /*}*/?>
+                        <div class="marker" data-info="<?php echo $dv_map['information_map'];?>" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+                            <?php if(!empty($dv_map['information_map'])) { ?><div class="info"><?php echo $dv_map['information_map'];?></div><?php }?>
                         </div>
                        <?php } ?>
 
@@ -69,8 +69,8 @@ while ( have_posts() ) : the_post();
                 <?php
                 foreach( $dv_row['diving_map'] as $dv_map ){
                     ?>
-                    <div class="marker" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
-                        <?php /*if(!empty($dv_map['information_map'])) { */?><!--<div class="info">$dv_map['information_map']</div>--><?php /*}*/?>
+                    <div class="marker" data-info="<?php echo $dv_map['information_map'];?>" data-lat="<?php echo $dv_map['lat_map'];?>" data-lng="<?php echo $dv_map['long_map'];?>" marker_id='1'>
+                        <?php if(!empty($dv_map['information_map'])) { ?><div class="info"><?php echo $dv_map['information_map'];?></div><?php }?>
                     </div>
                 <?php } ?>
 
