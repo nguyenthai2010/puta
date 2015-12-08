@@ -4,7 +4,7 @@ var clsGoogleMap = (function() {
 	var map = null;
 	var arrMarkers = {};
     //MAP
-    function render_map( $el, icon_marker ) {
+    function render_map( $el, icon_marker) {
 
         // var
         var $markers = $el.find('.marker');
