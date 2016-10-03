@@ -12,7 +12,7 @@
                         <?php echo get_field('phone_footer','option');?>
                     </span>
                     <span>
-                        <a href="mailto:<?php echo get_field('email_footer','option');?>"><?php echo get_field('email_footer','option');?></a>
+                        <a class="clsmailto" href="mailto:<?php echo get_field('email_footer','option');?>"><?php echo get_field('email_footer','option');?></a>
                     </span>
                 </address>
                 <div class="clearfix"></div>
@@ -94,7 +94,10 @@
 <script src="js/bootstrap-datepicker.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/jquery.validate.js"></script>
+<script src="js/jquery.selectbox-0.2.js"></script>
 <script src="js/custom.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script type='text/javascript' src='js/class.googlemap.js'></script>
 <?php wp_footer(); ?>
 </body>
 </html>

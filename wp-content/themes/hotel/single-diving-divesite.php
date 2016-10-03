@@ -41,7 +41,7 @@ while ( have_posts() ) : the_post();
                 </div>
             </div>
         </section>
-        <div class="mapbackground" style="background: url(img/diving/map1.jpg) no-repeat center;width: 100%;background-size: cover;height: 463px;display: block;"></div>
+        <div class="mapbackground"><div class="mapdiving01"></div></div>
         <section id="diving-2" class="side-bg">
             <div class="col-md-4 col-md-offset-4 pull-left image-container">
                 <div class="background-image max-height-image800"></div>
@@ -98,4 +98,3 @@ while ( have_posts() ) : the_post();
 endwhile;
 ?>
 <?php get_footer();?>
-

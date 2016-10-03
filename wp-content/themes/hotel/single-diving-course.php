@@ -169,91 +169,73 @@ while ( have_posts() ) : the_post();
                     <div class="col-md-8 col-md-offset-45">
                         <div class="inner-padding">
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>BEGINNER COURSES</h1>
-                                <h3 class="h3font22">Discover Scuba Diving</h3>
-                                <p>An introduction to Scuba diving. A poolsession, introducing the basics. After the pool, a dive in the ocean under the guidance of an Instructor. You will receive a certificate of recognition that you did the Discover Scuba Diving, however, this is not a valid dive certificate.</p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        750.000 IDR - 3-4 hours - 1 dive<br/>
-                                        1.050.000 IDR - 5-6 hours - 2 dives
-                                    </p>
+                                <div class="plus-close" style="display: block;"></div>
+                                <h1 class="h1title linkcollapse active"><i></i>BEGINNER COURSES</h1>
+                                <div class="collapse-content" style="display: block;">
+                                    <h3 class="h3font22">Discover Scuba Diving</h3>
+                                    <p>An introduction to Scuba diving. A poolsession, introducing the basics. After the pool, a dive in the ocean under the guidance of an Instructor. You will receive a certificate of recognition that you did the Discover Scuba Diving, however, this is not a valid dive certificate.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">750.000 IDR - 3-4 hours - 1 dive<br /> 1.050.000 IDR - 5-6 hours - 2 dives</p>
+                                    </div>
+                                    <h3 class="h3font22 padtop15">Scuba diver</h3>
+                                    <p>2 days - People that lack the time to do the full open water course, can do the Scuba Dive Course. It's basically the first half of the Open water course, you get the same book, only no exam and only 3 poolsessions and 2 open water dives. After completion, you will receive a certification as SCUBA diver. This allows you to dive under the guidance of a divemaster or higher to a maximum depth of 12m. It's easy to finish up the full Open Water course after.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">PADI Price: 3.000.000 IDR</p>
+                                    </div>
+                                    <h3 class="h3font22 padtop15">Open Water Diver</h3>
+                                    <p>3/4 days - The worlds most popular diving certification. You learn safety procedures, theory behind diving, diving techniques, but most of all, you will have fun and a new world will open up. 5 poolsessions, 4 dives and a theoretical exam.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">PADI Price: 4.400.000 IDR (for full course)</p>
+                                    </div>
                                 </div>
-                                <h3 class="h3font22 padtop15">Scuba diver</h3>
-                                <p>2 days - People that lack the time to do the full open water course, can do the Scuba Dive Course. It's basically the first half of the Open water course, you get the same book, only no exam and only 3 poolsessions and 2 open water dives. After completion, you will receive a certification as SCUBA diver. This allows you to dive under the guidance of a divemaster or higher to a maximum depth of 12m. It's easy to finish up the full Open Water course after.</p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        PADI Price: 3.000.000 IDR
-                                    </p>
-                                </div>
-
-                                <h3 class="h3font22 padtop15">Open Water Diver</h3>
-                                <p>3/4 days - The worlds most popular diving certification. You learn safety procedures, theory behind diving, diving techniques, but most of all, you will have fun and a new world will open up. 5 poolsessions, 4 dives and a theoretical exam. </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        PADI Price: 4.400.000 IDR (for full course)
-                                    </p>
-                                </div>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>FURTHER TRAINING COURSES</h1>
-                                <h3 class="h3font22">Advanced Diver</h3>
-                                <p>
-                                    2/3 days - The next step up from Open Water. Advanced diver will allow you to dive mostly everywhere in the world. The course exists of 5 adventure dives.
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        3.900.000 IDR
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse "><i></i>FURTHER TRAINING COURSES</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">Advanced Diver</h3>
+                                    <p>2/3 days - The next step up from Open Water. Advanced diver will allow you to dive mostly everywhere in the world. The course exists of 5 adventure dives.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">3.900.000 IDR</p>
+                                    </div>
+                                    <h3 class="h3font22 padtop15">Rescue Diver</h3>
+                                    <p>2/3 days - A hard yet fun dive course. What to do when things go really wrong? Better come prepared. Poolsession, theory, exam and open water scenarios.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">3.400.000 IDR</p>
+                                    </div>
                                 </div>
-
-                                <h3 class="h3font22 padtop15">Rescue Diver </h3>
-                                <p>2/3 days - A hard yet fun dive course. What to do when things go really wrong? Better come prepared. Poolsession, theory, exam and open water scenarios.</p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        3.400.000 IDR
-                                    </p>
-                                </div>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
-
                             <div class="diving-box-2">
-                                <h1 class="h1title"><i></i>SPECIALTIES</h1>
-                                <h3 class="h3font22">NITROX/EANx Specialty</h3>
-                                <p>
-                                    Enriched Air (or Nitrox) uses different gasblends for your tank. Learn to use different tables, how to analyze your tank and different safety measures. Normally, this is a theorethical course, but we give you 2 Nitrox dives with the course. Minimum prerequisite: Open Water and 15 years old.
-                                </p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        2.200.000 IDR
-                                    </p>
+                                <div class="plus-close"></div>
+                                <h1 class="h1title linkcollapse "><i></i>SPECIALTIES</h1>
+                                <div class="collapse-content">
+                                    <h3 class="h3font22">NITROX/EANx Specialty</h3>
+                                    <p>Enriched Air (or Nitrox) uses different gasblends for your tank. Learn to use different tables, how to analyze your tank and different safety measures. Normally, this is a theorethical course, but we give you 2 Nitrox dives with the course. Minimum prerequisite: Open Water and 15 years old.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">2.200.000 IDR</p>
+                                    </div>
+                                    <h3 class="h3font22 padtop15">Digital Underwater Photography Specialty</h3>
+                                    <p>You love photography and you love diving? The DUP will show you how you can combine both and create excellent pictures and memories from your diving experiences. Even snorkelers can take this course. Includes 2 dives (or snorkeling sessions).</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">2.200.000 IDR</p>
+                                    </div>
+                                    <h3 class="h3font22 padtop15">PADI EFR (Emergency First Response)</h3>
+                                    <p>1 day - This is not a dive course, but a First Aid course. In this 1 day course, you learn the correct technique for CPR, how to manage wounds and suspected spinal injuries. A recent EFR certificate, or similar, is necessary to start the Rescue Diver course.</p>
+                                    <div class="pricebox">
+                                        <h4 class="hfont18">PRICING</h4>
+                                        <p class="padtop5">2.200.000 IDR</p>
+                                    </div>
                                 </div>
-
-                                <h3 class="h3font22 padtop15">Digital Underwater Photography Specialty</h3>
-                                <p>You love photography and you love diving? The DUP will show you how you can combine both and create excellent pictures and memories from your diving experiences. Even snorkelers can take this course. Includes 2 dives (or snorkeling sessions).</p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        2.200.000 IDR
-                                    </p>
-                                </div>
-
-                                <h3 class="h3font22 padtop15">PADI EFR (Emergency First Response)</h3>
-                                <p>1 day - This is not a dive course, but a First Aid course. In this 1 day course, you learn the correct technique for CPR, how to manage wounds and suspected spinal injuries. A recent EFR certificate, or similar, is necessary to start the Rescue Diver course.</p>
-                                <div class="pricebox">
-                                    <h4 class="hfont18">PRICING</h4>
-                                    <p class="padtop5">
-                                        2.200.000 IDR
-                                    </p>
-                                </div>
-                                <div class="small-border"></div>
+                                <div class="small-border"> </div>
                             </div>
                         </div>
                     </div>

@@ -19,9 +19,6 @@ h2 {
 }
 #content{
   padding: 82px 0;
-  &.accomodation-content{
-    min-height: 1196px;
-  }
   &.diving-content{
     padding-top: 0;
   }
@@ -71,5 +68,108 @@ h3{
   .acf-map {
     height: 100%;
     width: 100%;
+  }
+}
+#contact{
+  div.wpcf7-mail-sent-ok{
+    border: none;
+  }
+  div.wpcf7-response-output{
+    @include Roboto-Regular(16px, 1.4);
+    margin-top:0;
+    color: #edb83a;
+  }
+}
+#contact select{
+margin-bottom: 0!important;
+}
+
+/* white background and box outline */
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div
+{
+  /* we have to use !important because we are overwritng inline styles */
+  background-color: transparent !important;
+  box-shadow: none !important;
+  width: auto !important;
+  height: auto !important;
+  border: none!important;
+  display: none;
+  box-shadow: none!important;
+}
+
+/* arrow colour */
+.gm-style > div:first-child > div + div > div:last-child > div > div:first-child > div > div > div
+{
+  background-color: transparent !important;
+}
+.gm-style .gm-style-iw{
+  font-family: 'Oswald', sans-serif;
+  font-size: 29px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #fff;
+  background: #edb83a;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+}
+.gm-style-iw .info{
+  padding-top: 7px;
+  padding-bottom: 2px;
+}
+.infoWindowBackground{
+  display: none;
+  div{
+    box-shadow: none!important;
+  }
+}
+
+.gm-style .gm-style-iw >div >div, .gm-style .gm-style-iw >div{
+  overflow: inherit!important;
+}
+/* close button */
+.gm-style > div:first-child > div + div > div:last-child > div > div:last-child
+{
+  margin-right: -4px;
+  margin-top: 17px;
+  opacity: 1!important;
+  padding-bottom: 4px!important;
+  height: 16px!important;
+  display: none;
+  &:before{
+    content: "x";
+    font-size: 13px;
+    background: #edb83a;
+    color: #fff;
+    padding: 3px;
+    opacity: 1;
+  }
+}
+
+/* image icon inside close button */
+.gm-style > div:first-child > div + div > div:last-child > div > div:last-child > img
+{
+  display: none;
+}
+
+/* positioning of infowindow */
+.gm-style-iw
+{
+  margin-top: 65px!important;
+  left: 101px!important;
+}
+.acf-map-diving-1{
+  .gm-style-iw{
+    left: 102px!important;
+  }
+}
+.acf-map-diving-2{
+  .gm-style-iw{
+    left: 113px !important;
+  }
+}
+.acf-map-diving-3{
+  .gm-style-iw{
+    left: 176px !important;
   }
 }

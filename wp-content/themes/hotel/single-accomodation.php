@@ -6,14 +6,14 @@ $query_object = get_queried_object();
 while ( have_posts() ) : the_post();
 ?>
 <!-- subheader begin -->
-<div id="subheader" style="background:url(<?php echo get_field('sub-accomodation','option');?>) top center no-repeat; background-size: cover;">
+<div id="subheader" class="accomodation-subheader" style="background:url(<?php echo get_field('sub-accomodation','option');?>) top center no-repeat; background-size: cover;">
     <h1><?php echo $query_object->post_type;?></h1>
     <h3><?php echo the_title()?></h3>
 </div>
 <!-- subheader close -->
 
 <!-- content begin -->
-<div id="content" class=" no-bottom accomodation-content">
+<div id="content" class="accomodation-content">
     <div class="container">
         <div class="row">
             <div class="room-single">
@@ -45,9 +45,10 @@ while ( have_posts() ) : the_post();
                                         $feautres = get_field('features_accomodation', get_the_ID());
                                         foreach( $feautres as $f_row ){
                                     ?>
-                                    <li><?php echo $f_row['features_row'];?></li>
+                                    <li><span><?php echo $f_row['features_row'];?></span></li>
                                     <?php } ?>
                                 </ul>
+                                <div class="clear"></div>
                             </div>
                             <div class="room-specs room-rates">
                                 <h4>RATE</h4>
