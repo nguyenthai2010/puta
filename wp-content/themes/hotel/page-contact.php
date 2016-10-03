@@ -23,7 +23,7 @@
                     <h4 class="h4font18">Hotel and General inquiries</h4>
                     <p class="phone">+62 (0)81 338 405 335</p>
                     <h4 class="h4font18">Diving</h4>
-                    <p class="phone">+62 (0)81 999 386 426</p>
+                    <p class="phone">Birger - 081338405335</p>
                     <div class="ourphone">
                         all our telephone numbers are availbale on<br/>
                         Whatsapp
